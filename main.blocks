@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Nv?qJDpDb-sNKA*u0G=E">kopapirollo</variable></variables><block type="device_forever" id="~OyRTNdj^/XOTUHBHvf$" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="PW-bO/l89Zsc2!fIjeEF"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=",/$eFGOtXynFTYb.C^h3"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="5[pImeR|_YR]zhBb1z.T"><field name="VAR" id="Nv?qJDpDb-sNKA*u0G=E">kopapirollo</field></block></value><value name="B"><shadow type="math_number" id="$R!,Q196IsfUkSas}s@:"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="xvL?,J:Dh0AMT[Ip]K%G"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id=".-qZ*17VOnWbEeONq~YT"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Mp*YO@:=LqPe!V+i|$D!"><field name="VAR" id="Nv?qJDpDb-sNKA*u0G=E">kopapirollo</field></block></value><value name="B"><shadow type="math_number" id=")A*s.P!AiG?!9cjp=*Y5"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="xASn?Vju`*(N[2IN0bWg"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="4$ua/fFc@xXR4P7y}Kro"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        # # . # # 
+        # # . # #
+        `</field></block></statement></block></statement></block><block type="device_gesture_event" id="m:DBR{*=+qTcex,~5TpP" x="574" y="-17"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="bvnxLPHwU),i{87r[;%^"><field name="VAR" id="Nv?qJDpDb-sNKA*u0G=E">kopapirollo</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="@+K{epjA+Y!=(S+5m~Ei"><value name="min"><shadow type="math_number" id="~RCM0F?LAE3BTloNJ|hE"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="+8].e4#,2tDbzMvK;KP["><field name="NUM">3</field></shadow></value></block></value></block></statement></block><block type="device_button_event" id="Phds~P8kaJ*r!ysy-?ma" x="576" y="149"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="9yA[~E7Q36[p+Fahi,6}"></block></statement></block><block type="device_button_event" id="vtbLs1DoI%v:/*h)=3**" x="574" y="284"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="p@(*H^^1O2qBHh|U-ty5"></block></statement></block><block type="device_button_event" id="{qcOj.S4Wci`gRB8Dy$r" x="578" y="436"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="BNupbZSP16rf`0VzqZeJ"></block></statement></block></xml>
